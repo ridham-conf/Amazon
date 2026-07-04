@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background-color: #0f1111;
+    color: white;
+    height: 60px;
+    width: 100%;  
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.amazon-logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+.text-hello{
+    margin-left: 1rem;
+}
+.text-2{
+    margin-left: 4px;
+}
+.loc-icon{
+    display: flex;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    background-color: #ba9c25;
+    height: 37.5px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon:hover{
+    background-color: #d5b434;
+}
+.text-box{
+    height: 38px;
+    width: 360px;
+}
+.search-select{
+    text-align: center;
+    height: 38.43px;
+    width: 50px;
+}
+.nav-cart{
+    display: flex;
+}
+.nav-cart p{
+    margin-left: 3px;
+    margin-top: 6px;
+
+}
+.nav-cart i{
+    font-size: 25px;
+}
+
+.head-2{
+    background-color: #232f3e;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.all{
+    display: flex;
+}
+.all {
+    margin-left: 5px;
+}
+.all i{
+    margin-left: 20px;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.text p{
+    margin-left: 18px;
+    font-size: 14px;
+}
+.text i{
+    margin-left: 3px;
+}
+.livenow-img{
+    width: 400px;
+    height: 39px;
+   
+}
+.logo{
+    background-image: url("livenow.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 100%;
+}
+.main{
+    height: 580px;
+    width: 1445px;
+}
+.main-img{
+    background-image: url("main.jpg");
+    height: 280px;
+    background-size: cover;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.size{
+    height: 420px;
+    width:23%; 
+    background-color: #ffffff;
+    border: 2px solid black;
+    font-size: 19px;
+    font-weight:bold;
+  
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boxes p{
+    margin-top: 20px;
+    font-size: 21px;
+}
+.img-size img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 0px 2px;
+}
+.cloths-b1{
+    width: 48%;
+    height: 120px;
+}
+.foot-b1{
+    width: 48%;
+    height: 120px;
+}
+.watch-b1{
+    width: 48%;
+    height: 120px;
+}
+.bag-b1{
+    width: 48%;
+    height: 120px;
+}
+.text-style{
+   
+    font-size: 17px;
+    position: absolute;
+}
+.box1-1-text{
+    left: 32px;
+    top: 589px;
+}
+.box1-2-text{
+    left: 193px;
+    top: 589px;
+}
+.box1-3-text{
+    left: 32px;
+    top: 753px;
+}
+.box1-4-text{
+    left: 193px;
+    top: 753px;
+}
+.iph-cover{
+    background-image: url("apple\ b2.jpg");       
+    width: 125px;
+    height: 90px;
+    background-size: cover;
+    border: 2px solid black;
+}
+.sam-cover{
+    background-image: url("samsung\ b2.jpg");       
+    width: 125px;
+    height: 90px;
+    background-size: cover;
+}
+.red-cover{
+    background-image: url("redmi\ b2.jpg");       
+    width: 125px;
+    height: 90px;
+    background-size: cover;
+}
+.one-cover{
+    background-image: url("oneplus\ b2.jpg");       
+    width: 125px;
+    height: 90px;
+    background-size: cover;
+}
+.b-3{   
+    width: 335px;
+    height: 385px;
+    padding: 28px 20px 80px 20px;
+   
+}
+.b-3 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+    
+.b-4{
+    width: 330px;
+    height: 290px;
+    padding: 23px 20px 6px 20px;
+    
+}
+.b-4 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.box-text{
+    position: absolute;
+}
+a{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 105px;
+}
+
